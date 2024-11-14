@@ -18,8 +18,9 @@ namespace SampleMaster
     {
         static async Task Main(string[] args)
         {          
+            
             /* Set interface name. Edit this to suit your needs. */
-            var interfaceName = "eth0";
+            var interfaceName = "\\Device\\NPF_{34CE3693-C25D-41AF-B625-92EDE56EB2C3}";
 
             /* Set ESI location. Make sure it contains ESI files! The default path is /home/{user}/.local/share/ESI */
             var localAppDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
